@@ -1,3 +1,5 @@
+import javax.sound.sampled.SourceDataLine;
+
 /**
  * Lernziel: Grundbegriffe
  * - Klassen > Methoden > Code
@@ -11,7 +13,7 @@
  * @see Comments
  */
 public class Application {
-  public static void main( String[] args ) {
-    System.out.println( "Hallo Welt!" );
+  public static void main(String[] args) {
+    System.out.println("Hallo Welt!");
   }
 }

@@ -24,7 +24,7 @@ public class ExpressionsOperators {
     System.out.println(age);
 
     System.out.println(Math.random());  // 0.0 <= random < 1.0
-    System.out.println(-(-Math.random()));  // 0.0 <= random < 1.0
+    System.out.println(-Math.random());  // 0.0 <= random < 1.0
 
     System.out.println(Math.random() * 10);  // 0.0 <= random < 10.0
 
@@ -91,7 +91,7 @@ public class ExpressionsOperators {
     int nn = 99;
     String hello = "Hallo ";
     System.out.println(hello + nn + " Welten");
-    System.out.println(2+"2"+(nn+1));
+    System.out.println(1+1+"2"+(nn+1));
     String s = "Zufallszahl " + Math.random();
     System.out.println(s);
   }
